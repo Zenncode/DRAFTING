@@ -269,15 +269,10 @@ const heroes = [
 ];
 
 const organization = [
+  //FIRTS MATCH
   {
-    name: "ABS",
-    members: [
-      "La Flame.",
-      "Chasing Pavements.",
-      "greý",
-      "Ri Leyunel Hyeok",
-      "Tomoya Okazaki",
-    ], //5PLAYERS
+    name: "PICE",
+    members: ["SUPER EGO", "Dasval", "SlashTzy", "Tinn", "Optix | Kairu "], //5PLAYERS
   },
   {
     name: "HMS",
@@ -290,86 +285,7 @@ const organization = [
       //,"Madilim Na Sistema"
     ],
   },
-  {
-    name: "IIEE",
-    members: [
-      "About you",
-      "jiwoo.sze",
-      "Fʀᴏsᴛᴢʏ",
-      "Enderbro",
-      "ꜱᴇᴠvツ",
-      //,"Water"
-    ],
-  },
-  {
-    name: "ILS",
-    members: [
-      "Gearboi.",
-      "ʜᴏɢᴏsʜᴀ",
-      "iyakhen",
-      "暗•|ᴅᴀʀᴋ.",
-      "kcir",
-      //, "Nadine Luśtre"
-    ],
-  },
-  {
-    name: "JME",
-    members: ["Vinny", "lionill", "Hiroshi", "fionn", "Exødus"], //5PLAYERS
-  },
-  {
-    name: "JPIA",
-    members: [
-      "Return of Diablo.",
-      "Super Neil",
-      "Flemming Stein.",
-      "Rod Kamonohashi",
-      "AhronnShikii",
-      //   , "Slay Danigurl~"
-    ],
-  },
-  {
-    name: "PADS",
-    members: [
-      "Nini.",
-      "J 4 C",
-      "SuperPatorikku",
-      "KH3RT",
-      "Zander.",
-      //, "Mumid"
-    ],
-  },
-  {
-    name: "PAN-YC",
-    members: [
-      "Gluconeogenesis",
-      "Son Chaeyoung",
-      "Augustine",
-      "Carlolo",
-      "tways tzuyu",
-      // , "R A T B U"
-    ],
-  },
-  {
-    name: "PASOA",
-    members: [
-      "패트릭.",
-      "Upin",
-      "indraaa.",
-      "célesta.",
-      "Angu",
-      // , "ERYZ"
-    ],
-  },
-  {
-    name: "SYNERTECH",
-    members: [
-      "Noxura",
-      "PASSIVE SABAY BEG",
-      "Sassy chloe",
-      "    .",
-      "Francheskaツ",
-    ], //5PLAYERS
-  },
+  //SECOND MATCH
   {
     name: "YES",
     members: [
@@ -392,23 +308,113 @@ const organization = [
       //, Jefu
     ],
   },
+  //THIRD MATCH
+  {
+    name: "PADS",
+    members: [
+      "Nini.",
+      "J 4 C",
+      "SuperPatorikku",
+      "KH3RT",
+      "Zander.",
+      //, "Mumid"
+    ],
+  },
+  {
+    name: "JPIA",
+    members: [
+      "Return of Diablo.",
+      "Super Neil",
+      "Flemming Stein.",
+      "Rod Kamonohashi",
+      "AhronnShikii",
+      //   , "Slay Danigurl~"
+    ],
+  },
+  //FOUTH MATCH
+  {
+    name: "ILS",
+    members: [
+      "Gearboi.",
+      "ʜᴏɢᴏsʜᴀ",
+      "iyakhen",
+      "暗•|ᴅᴀʀᴋ.",
+      "kcir",
+      //, "Nadine Luśtre"
+    ],
+  },
+  {
+    name: "PAN-YC",
+    members: [
+      "Gluconeogenesis",
+      "Son Chaeyoung",
+      "Augustine",
+      "Carlolo",
+      "tways tzuyu",
+      // , "R A T B U"
+    ],
+  },
+
+  //--------------------
+  {
+    name: "JME",
+    members: ["Vinny", "lionill", "Hiroshi", "fionn", "Exødus"], //5PLAYERS
+  },
+  {
+    name: "IIEE",
+    members: [
+      "About you",
+      "jiwoo.sze",
+      "Fʀᴏsᴛᴢʏ",
+      "Enderbro",
+      "ꜱᴇᴠvツ",
+      //,"Water"
+    ],
+  },
+
+  {
+    name: "PASOA",
+    members: [
+      "패트릭.",
+      "Upin",
+      "indraaa.",
+      "célesta.",
+      "Angu",
+      // , "ERYZ"
+    ],
+  },
+  {
+    name: "SYNERTECH",
+    members: [
+      "Noxura",
+      "PASSIVE SABAY BEG",
+      "Sassy chloe",
+      "    .",
+      "Francheskaツ",
+    ], //5PLAYERS
+  },
+
   {
     name: "IBITS",
     members: ["Mark Angelo", "ced2", "2wo.", "fae.", "ZJ."], //5PLAYERS
   },
   {
-    name: "PICE",
-    members: ["SUPER EGO", "Dasval", "SlashTzy", "Tinn", "Optix | Kairu "], //5PLAYERS
-  },
-
+    name: "ABS",
+    members: [
+      "La Flame.",
+      "Chasing Pavements.",
+      "greý",
+      "Ri Leyunel Hyeok",
+      "Tomoya Okazaki",
+    ], //5PLAYERS
+  }
 ];
 function filterDropdown(id) {
   const searchInput = document
     .getElementById(`search-${id}`)
     .value.toLowerCase();
   const dropdownItems = document.getElementById(`dropdown-items-${id}`);
-  dropdownItems.innerHTML = ""; 
-
+  dropdownItems.innerHTML = "";
 
   heroes
     .filter((hero) => hero.name.toLowerCase().includes(searchInput))
@@ -426,18 +432,20 @@ function selectHero(hero, id) {
   const imageDisplay = document.getElementById(`image-display-${id}`);
   const existingImage = imageDisplay.querySelector("img");
 
+
   if (existingImage) {
-    
+
     existingImage.classList.add("fly-out");
-    
+
     setTimeout(() => {
       updateHeroImage(hero, id);
     }, 500);
   } else {
-    
+
     updateHeroImage(hero, id);
   }
 }
+
 
 // function selectHero(hero, id) {
 //     const imageDisplay = document.getElementById(`image-display-${id}`);
@@ -452,9 +460,9 @@ function selectHero(hero, id) {
 //     }
 
 //     if (existingImage) {
-//   
+//
 //         existingImage.classList.add('fly-out');
-//    
+//
 //         setTimeout(() => {
 //             updateHeroImage(hero, id);
 //         }, 500);
@@ -475,7 +483,7 @@ function resetAllDropdowns() {
   for (let i = 1; i <= 20; i++) {
     const imageDisplay = document.getElementById(`image-display-${i}`);
     if (imageDisplay.innerHTML) {
-     
+
       imageDisplay.querySelector("img").classList.add("fly-out");
     }
 
@@ -483,7 +491,7 @@ function resetAllDropdowns() {
       document.getElementById(`search-${i}`).value = "";
       imageDisplay.innerHTML = "";
       document.getElementById(`dropdown-items-${i}`).innerHTML = "";
-    }, 500); 
+    }, 500);
   }
 }
 
@@ -510,7 +518,7 @@ function switchInputs() {
     ).value;
     document.getElementById("input" + (i + 5)).value = temp;
   }
- 
+
   updateOutput();
 }
 
@@ -601,7 +609,7 @@ function updateTeamName() {
 
 
 function resetContent() {
-  // Reset dropdown 
+  // Reset dropdown
   document.getElementById("team1").value = "";
   document.getElementById("team2").value = "";
   updateTeamName();
@@ -631,27 +639,25 @@ function toggleImage(imageId) {
   image.style.display = checkbox.checked ? "block" : "none";
 }
 
+
 function switchAll() {
- 
+  
   const team1 = document.getElementById("team1");
   const team2 = document.getElementById("team2");
   const tempName = team1.value;
   team1.value = team2.value;
   team2.value = tempName;
 
-  
   updateTeamName();
   if (team1.value) displayPlayersFromOrg(1);
   if (team2.value) displayPlayersFromOrg(2);
 
- 
   const img1 = document.getElementById("image1");
   const img2 = document.getElementById("image2");
   const tempSrc = img1.src;
   img1.src = img2.src;
   img2.src = tempSrc;
 
-  
   for (let i = 1; i <= 3; i++) {
     const checkboxA = document.getElementById("checkbox" + i);
     const checkboxB = document.getElementById("checkbox" + (i + 3));
@@ -666,7 +672,6 @@ function switchAll() {
     extraImageB.style.display = checkboxB.checked ? "block" : "none";
   }
 
- 
   switchInputs();
 }
 
