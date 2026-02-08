@@ -343,16 +343,16 @@ const organization = [
       //, "Nadine Luśtre"
     ],
   },
+
   {
-    name: "PAN-YC",
+    name: "SYNERTECH",
     members: [
-      "Gluconeogenesis",
-      "Son Chaeyoung",
-      "Augustine",
-      "Carlolo",
-      "tways tzuyu",
-      // , "R A T B U"
-    ],
+      "Noxura",
+      "PASSIVE SABAY BEG",
+      "Sassy chloe",
+      "    .",
+      "Francheskaツ",
+    ], //5PLAYERS
   },
 
   //--------------------
@@ -371,7 +371,6 @@ const organization = [
       //,"Water"
     ],
   },
-
   {
     name: "PASOA",
     members: [
@@ -383,17 +382,6 @@ const organization = [
       // , "ERYZ"
     ],
   },
-  {
-    name: "SYNERTECH",
-    members: [
-      "Noxura",
-      "PASSIVE SABAY BEG",
-      "Sassy chloe",
-      "    .",
-      "Francheskaツ",
-    ], //5PLAYERS
-  },
-
   {
     name: "IBITS",
     members: ["Mark Angelo", "ced2", "2wo.", "fae.", "ZJ."], //5PLAYERS
@@ -407,6 +395,17 @@ const organization = [
       "Ri Leyunel Hyeok",
       "Tomoya Okazaki",
     ], //5PLAYERS
+  },
+  {
+    name: "PAN-YC",
+    members: [
+      "Gluconeogenesis",
+      "Son Chaeyoung",
+      "Augustine",
+      "Carlolo",
+      "tways tzuyu",
+      // , "R A T B U"
+    ],
   }
 ];
 function filterDropdown(id) {
@@ -427,25 +426,20 @@ function filterDropdown(id) {
     });
 }
 
-
 function selectHero(hero, id) {
   const imageDisplay = document.getElementById(`image-display-${id}`);
   const existingImage = imageDisplay.querySelector("img");
 
-
   if (existingImage) {
-
     existingImage.classList.add("fly-out");
 
     setTimeout(() => {
       updateHeroImage(hero, id);
     }, 500);
   } else {
-
     updateHeroImage(hero, id);
   }
 }
-
 
 // function selectHero(hero, id) {
 //     const imageDisplay = document.getElementById(`image-display-${id}`);
@@ -471,7 +465,6 @@ function selectHero(hero, id) {
 //     }
 // }
 
-
 function updateHeroImage(hero, id) {
   const imageDisplay = document.getElementById(`image-display-${id}`);
   imageDisplay.innerHTML = `<img src="${hero.img}" alt="${hero.name}" class="fly-in">`;
@@ -483,7 +476,6 @@ function resetAllDropdowns() {
   for (let i = 1; i <= 20; i++) {
     const imageDisplay = document.getElementById(`image-display-${i}`);
     if (imageDisplay.innerHTML) {
-
       imageDisplay.querySelector("img").classList.add("fly-out");
     }
 
@@ -509,7 +501,6 @@ function resetInputs() {
   }
 }
 
-
 function switchInputs() {
   for (let i = 1; i <= 5; i++) {
     const temp = document.getElementById("input" + i).value;
@@ -521,7 +512,6 @@ function switchInputs() {
 
   updateOutput();
 }
-
 
 function swapContent() {
   const img1 = document.getElementById("image1");
@@ -537,12 +527,10 @@ function swapContent() {
   teamDisplay2.textContent = tempTeamDisplay;
 }
 
-
 function loadImage(event, imgId) {
   const img = document.getElementById(imgId);
   img.src = URL.createObjectURL(event.target.files[0]);
 }
-
 
 function populateOrgDropdowns() {
   const team1Dropdown = document.getElementById("team1");
@@ -599,14 +587,12 @@ function displayPlayersFromOrg(teamNumber) {
   }
 }
 
-
 function updateTeamName() {
   const team1 = document.getElementById("team1").value || "Team 1";
   const team2 = document.getElementById("team2").value || "Team 2";
   document.getElementById("teamNameDisplay1").textContent = team1;
   document.getElementById("teamNameDisplay2").textContent = team2;
 }
-
 
 function resetContent() {
   // Reset dropdown
@@ -622,7 +608,6 @@ function resetContent() {
   document.getElementById("file1").value = "";
   document.getElementById("file2").value = "";
 
-
   for (let i = 1; i <= 6; i++) {
     document.getElementById("checkbox" + i).checked = false;
     document.getElementById("extraImage" + i).style.display = "block";
@@ -632,16 +617,13 @@ function resetContent() {
   resetInputs();
 }
 
-
 function toggleImage(imageId) {
   const image = document.getElementById(imageId);
   const checkbox = document.getElementById("checkbox" + imageId.slice(-1));
   image.style.display = checkbox.checked ? "block" : "none";
 }
 
-
 function switchAll() {
-  
   const team1 = document.getElementById("team1");
   const team2 = document.getElementById("team2");
   const tempName = team1.value;
@@ -675,7 +657,6 @@ function switchAll() {
   switchInputs();
 }
 
-
 document.addEventListener("DOMContentLoaded", function () {
   const tournamentnameInput = document.getElementById("tournamentnamemid");
   const tournamentnameOutput = document.getElementById("tournamentnameOutput");
@@ -708,7 +689,7 @@ const phases = [
 ];
 
 let currentPhaseIndex = 0; // Track the current phase
-let timer = 30; // Timer duration in seconds
+let timer = 40; // Timer duration in seconds
 let timerInterval; // Store the interval for the timer
 let timerRunning = false; // Track if the timer is running
 
@@ -766,7 +747,7 @@ function moveToNextPhase() {
     currentPhaseIndex++;
     updateUI();
     if (currentPhaseIndex < phases.length) {
-      timer = 30; // Reset timer
+      timer = 40; // Reset timer
       startTimer(); // Restart timer
     }
   }
@@ -776,7 +757,7 @@ function moveToNextPhase() {
 function reset() {
   clearInterval(timerInterval); // Stop the timer
   currentPhaseIndex = 0; // Reset phase index
-  timer = 30; // Reset timer
+  timer = 40; // Reset timer
   timerRunning = false;
   updateUI(); // Reset UI
 }

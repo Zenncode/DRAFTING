@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loading Screen</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .loading-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            background-image: url("Assets/Other/Tournamentnamebgg.jpg");
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        }
+        .teams-loading {
+            display: flex;
+            justify-content: center;
+            width: 90vw;
+            margin: 3rem 0;
+        }
+        .team-loading {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 0 1rem;
+        }
+        .team-loading h2 {
+            color: #fff;
+            font-size: 2.2rem;
+            margin-bottom: 1.5rem;
+            letter-spacing: 2px;
+        }
+        .picks-loading {
+            display: flex;
+            flex-direction: row;
+            gap: 0;
+        }
+        .pick-loading {
+            width: 150px;
+            height: 450px;
+            background: #222;
+            border-radius: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-end;
+            color: #fff;
+            font-size: 1.1rem;
+            box-shadow: 0 0 15px #0003;
+            overflow: hidden;
+        }
+        .pick-loading img {
+            width: 100%;
+            height: 85%;
+            object-fit: cover;
+        }
+        .pick-blue {
+            background: #003d99 !important;
+            border: 2px solid #0052cc;
+        }
+        .pick-red {
+            background: #990000 !important;
+            border: 2px solid #cc0000;
+        }
+        .vs {
+            color: #fff;
+            font-size: 2rem;
+            margin: 0 2rem;
+            width: 4px;
+            min-height: 70vh;
+            background: #fff;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="loading-container">
+        <h1 style="color: #fff; font-size: 4rem; margin-bottom: 2rem;">PUP GAME KNB 2026</h1>
+        <div class="teams-loading">
+            <div class="team-loading" id="teamA-loading">
+                <h2>Team A</h2>
+                <div class="picks-loading" id="picksA-loading"></div>
+            </div>
+            <div class="vs"></div>
+            <div class="team-loading" id="teamB-loading">
+                <h2>Team B</h2>
+                <div class="picks-loading" id="picksB-loading"></div>
+            </div>
+        </div>
+    </div>
+    <script src="loading.js"></script>
+
+    <button onclick="goToDraftingScreen()">Go to Drafting Screen</button>
+    <script src="toScript.js"></script>
+    
+
+</body>
+</html>

@@ -1,104 +1,4 @@
-Organization: PASOA
-Team Captain : Patrick Mantala
 
-Player IGNs:
-1. -패트릭.-TC-452566647 - gold lane 
-2. - Upin  - Jungler
-3. - indraaa.  - Mid lane
-4. - célesta. -  - Roamer
-5. - Angu  - Gold Lane 
-6. - ERYZ -   Exp Lane
-
--------------------
-
-Organization: Young Educators Society (YES)
-Team Captain: Rebongskie 
-
-Player IGNs:
-1. Rebongskie - TC - 746156748 | Gold
-2. Owdêll -    Mid
-3. Gēr. -    Exp
-4. Seigi -    Jungle
-5. Jayeel -   Roam
-6. Rea And? -  Jungle
-
---------------
-
-Organization: SYNERTECH 
-Team Captain: 
-
-Player IGNs:
-1. Noxura-523997063 -  JUNGLE 
-2. PASSIVE SABAY BEG -GOLD
-3. Sassy chloe    MID
-4.               . -EXP
-5. ★"Francheskaツ-ROAMER
-
---------------
-
-Organization: Institute of Life Sciences 
-Team Captain: Gearboi. 
-
-Player IGNs:
-1. Gearboi. - TC - 598257988 - Jungler
-2. ʜᴏɢᴏsʜᴀ-   Roamer
-3. iyakhen -  Gold Laner
-4. 暗•|ᴅᴀʀᴋ. -   Exp Laner
-5. kcir -   Roamer
-6. Nadine Luśtre -   Mid Laner
-
----------------
-
-Organization: INSTITUTE OF INTEGRATED ELECTRICAL ENGINEERING (IIEE)
-Team Captain: About you
-
-Player IGNs:
-1. About you -   Jungler
-2.jiwoo.sze -   Gold laner
-3. Fʀᴏsᴛᴢʏ -  Mid laner
-4.Enderbro -   Exp laner
-5. ꜱᴇᴠvツ -   Roamer
-6. Water -   Mid laner
-
-------------
-
-Organization: Junior Financial Executives (JFINEX)
-Team Captain: Abelyana.
-
-Player IGNs
-1. Abelyana. - TC - 357724127 | Jungler
-2. _CYRUS -  | Roamer
-3.           -   Exp laner
-4. Rovina. -  | Mid laner
-5. THE HOLYNIGHT10 -   Roamer
-6.. Jefu -   Gold laner
-
--------------
-
-Organization: Agribusiness Society (ABS)
-Team Captain : La Flame.
-
-Player IGNs:
-1. La Flame. - TC - 201282961| Mid laner
-2. Chasing Pavements.  Gold laner
-3. greý -  Roamer
-4. Ri Leyunel Hyeok -  Jungler
-5. Tomoya Okazaki -  Exp laner
-
--------------
-
-Organization: Public Administrators Society (PADS)
-Team Captain: Nini.
-
-Player IGNs:
-1. Nini. - TC- 116840817 | Midlane
-2. J 4 C -   GOLD LANE
-3.SuperPatorikku-   ROAMER
-4.KH3RT-   ROAMER
-5.Zander.-   EXP LANER
-6.Mumid-   JUNGLER
-
--------------
 
 Organization: Institute of Brilliant Information Technology Students (IBITS)
 Team Captain: Mark Angelo 
@@ -111,54 +11,17 @@ Player IGNs:
 5. ZJ. -   Exp Laner
 6. _____ -   Exp Laner
 
-----------------
 
-Organizations: Bachelor of Science in Hospitality Management (HMS) 
-Team Captain: Marcel Batalla
 
-Player IGNs:
-1. Marcel GD - TC - 245433907 Exp lane
-2. Incyvincy —   Jungle
-3. Bullet -   Gold lane
-4. Benzmodee -   Mid lane
-5. HobbySyo -   Roam
-6. Madilim Na Sistema  -  Gold lane
 
--------------
-
-Organization: Junior Marketing Executive (JME)
-Team Captain : Vinny
+Organization: Public Administrators Society (PADS)
+Team Captain: Nini.
 
 Player IGNs:
-1.Vinny - TC -711972649  Jungle
-2. lionill -   Exp lane
-3. Hiroshi -  Mid lane
-4. fionn -   Gold lane
-5.Exødus -   Roam
-
- --------------
-
-Organization: JPIA
-Team Captain : Janus Abanilla
-
-Player IGNs:
-1. Return of Diablo. - 338521154 - Mid Lane
-2. Super Neil -  Roam
-3. - Flemming Stein. -   Jungle
-4. - Rod Kamonohashi -   Exp Lane
-5. - AhronnShikii-   Gold Lane
-6. - Slay Danigurl~-   Roam
-
--------------
-
-Organization: Philippine Institute of Civil Engineers (PICE)
-Team Captain: SUPER EGO
-
-Player IGNs:
-1. SUPER EGO - TC - 271435374 - Roam
-2. Dasval - Exp Lane
-3. SlashTzy - Gold Lane
-4. Tinn - Jungle 
-5. Optix | Kairu - Mid Lane
-6. Elio - Mid Lane
+1. Nini. - TC- 116840817 | Midlane
+2. J 4 C -   GOLD LANE
+3.SuperPatorikku-   ROAMER
+4.KH3RT-   ROAMER
+5.Zander.-   EXP LANER
+6.Mumid-   JUNGLER
 
